@@ -86,7 +86,7 @@ function About() {
             </motion.div>
           </motion.div>
 
-          {/* Right: Image Placeholder */}
+          {/* Right: Profile Photo */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -94,12 +94,12 @@ function About() {
             transition={{ duration: 0.8 }}
             className="flex justify-center"
           >
-            <div className="w-full max-w-sm aspect-square rounded-2xl bg-gradient-to-br from-primary-400 to-primary-600 shadow-lg flex items-center justify-center">
-              <div className="text-center text-white">
-                <div className="text-6xl mb-4">👨‍💻</div>
-                <p className="text-xl font-semibold">Your Photo Here</p>
-                <p className="text-sm opacity-90 mt-2">Add your professional photo</p>
-              </div>
+            <div className="w-full max-w-sm aspect-square rounded-2xl overflow-hidden shadow-lg border-4 border-primary-200 dark:border-primary-800 hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="/profile-photo.jpg"
+                alt="Nagaraju's Profile Photo"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
         </div>

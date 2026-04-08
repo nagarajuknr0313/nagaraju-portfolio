@@ -103,7 +103,7 @@ git commit -m "Initial portfolio setup"
 
 ```bash
 # Add remote
-git remote add origin https://github.com/nagarajuknr0313/portfolio-site.git
+git remote add origin https://github.com/nagarajuknr0313/nagaraju-portfolio.git
 
 # Rename branch to main (if needed)
 git branch -M main
